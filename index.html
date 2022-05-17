@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function() {
+       $(".toggle").on("click", function(){
+         if($(".items").hasClass("active")){
+           $(".items").removeClass("active")
+         }
+         else {
+           $(".items").addClass("active")
+         }
+       })
+});
+
+    </script>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">Responsive-Web.co</a></li>
+        <li class="items"><a href="#home">Home</a></li>
+        <li class="items"><a href="#about">About</a></li>
+        <li class="items"><a href="#products">Products</a></li>
+        <li class="items"><a href="#services">Service</a></li>
+        <li class="toggle">
+          <span class="bars"></span>
+        </li>
+      </ul>
+    </nav>
+       <div class="wrapper" >
+    <section id="home">
+      <div class="main">
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="heading">ABOUT</h1>
+      <div id="pic">
+        <article class="img-info">
+          <h2>LEHLOGONOLO MALATJA</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus molestiae perspiciatis impedit quasi possimus rem
+            facilis, dignissimos assumenda nemo incidunt tenetur corrupti, ipsum
+            alias sit ratione? Id dolor ipsam quasi error consequatur vero quo
+            blanditiis quisquam rerum cumque assumenda ipsum impedit, vitae quod
+            veritatis ab unde hic, delectus temporibus illum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ipsum
+            neque a quis modi facilis natus non quas ad sint. Inventore, dolorem
+            maxime! Officiis expedita accusamus provident ipsum nostrum id,
+            doloribus sed ipsam et in neque aperiam, deserunt corrupti ex unde
+            quis? Architecto iure ea porro fugiat, voluptatibus sunt, aliquam unde
+            mollitia voluptatem illo, quidem necessitatibus blanditiis.
+            Architecto, nulla omnis?
+          </p>
+        </article>
+        <img class="img-me" src="./images/12" alt="feydo" />
+        </div>
+      </div>
+    </section>
+    <section class="display" id="products">
+      <h1 class="heading">PRODUCTS</h1>
+      <div class="gallery">
+        <div class="box">
+          <img src="/services/m" alt="" />
+          <h1 class="heading">Digital Makerting</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div>
+        <div class="box">
+          <img src="/services/m" alt="" />
+          <h1 class="heading">Digital Makerting</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div>
+        <div class="box">
+          <img src="/services/m" alt="" />
+          <h1 class="heading">Digital Makerting</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div> 
+      </div>
+    </section>
+    <section  class="display"id="services">
+      <h1 class="heading">SERVICES</h1>
+      <div class="row">
+        <div class="box2">
+          <img src="/services/w" alt="" />
+          <h1 class="heading">
+            Website <br />
+            Design
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div>
+        <div class="box2">
+          <img src="/services/g" alt="" />
+          <h1 class="heading">
+            Graphic <br />
+            Design
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div>
+        <div class="box2">
+          <img src="/services/m" alt="" />
+          <h1 class="heading">Digital Makerting</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div>
+        <div class="box2">
+          <img src="/services/m" alt="" />
+          <h1 class="heading">Digital Makerting</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            excepturi ipsum nulla voluptatibus fugiat. Quod adipisci non dolor,
+            aut veniam sint reiciendis cupiditate, quidem dicta ratione soluta
+            dolorum illo eum omnis iure consequuntur. Consectetur alias
+            molestias delectus quis. Repellendus, placeat.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+  </body>
+</html>
